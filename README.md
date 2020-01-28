@@ -1,4 +1,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/cd2qeo9t0q1igh3g?svg=true)](https://ci.appveyor.com/project/nugmanov87/ahj-homeworks-task1)
+
+
+
 **Важно**: все задачи к данной лекции можно выполнить в виде одного репозитория (т.е. допускается не делать отдельные репозитории на каждую задачу).
 
 ---
