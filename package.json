@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js",
-    "live": "live-server src",
-    "test": "jest",
+    "start": "webpack-dev-server --mode development",
+    "test": "jest test-scripts test --passWithNoTests",
     "lint": "eslint .",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --mode production"
   },
   "repository": "https://github.com/nugmanov87/ahj-homeworks-task1",
   "author": "nugmanov",
