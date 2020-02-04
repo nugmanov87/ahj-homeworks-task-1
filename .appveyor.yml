@@ -1,13 +1,12 @@
 image: Ubuntu1804
 
+stack: node 10
+
 branches:
   only:
     - master
 
 cache: node_modules
-
-init:
-  - ps: Install-Product node 10
 
 install:
   - yarn
@@ -15,10 +14,10 @@ install:
 build: off
 
 build_script:
-  - yarn run build
+  - yarn build
 
 test_script:
-  - yarn run lint && yarn test
+  - yarn lint && yarn test
 
 deploy_script:
   - git config --global credential.helper store
