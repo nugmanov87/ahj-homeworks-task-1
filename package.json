@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "build": "webpack --mode production"
   },
-  "repository": "https://github.com/nugmanov87/ahj-homeworks-task1",
+  "repository": "https://github.com/nugmanov87/ahj-homeworks-task-1",
   "author": "nugmanov",
   "license": "MIT",
   "devDependencies": {
